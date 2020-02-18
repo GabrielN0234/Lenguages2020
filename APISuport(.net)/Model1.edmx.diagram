@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="95d33facf0c94b25896c7f2d81c152b7" Name="Diagram1" ZoomLevel="64">
+        <EntityTypeShape EntityType="Leng01Model.Comments" Width="1.5" PointX="14.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Leng01Model.Issue" Width="1.5" PointX="12" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Leng01Model.Service" Width="1.5" PointX="14.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Leng01Model.User" Width="1.5" PointX="9.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Leng01Model.Issue1" Width="1.5" PointX="5.25" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Leng01Model.Supervisor" Width="1.5" PointX="3" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Leng01Model.Supporter" Width="1.5" PointX="0.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Leng01Model.Notes" Width="1.5" PointX="7.5" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Leng01Model.Service1" Width="1.5" PointX="7.5" PointY="4.125" IsExpanded="true" />
+        <AssociationConnector Association="Leng01Model.Has" ManuallyRouted="false" />
+        <AssociationConnector Association="Leng01Model.Creates" ManuallyRouted="false" />
+        <AssociationConnector Association="Leng01Model.IsAsignedTo" ManuallyRouted="false" />
+        <AssociationConnector Association="Leng01Model.IsSuscribedTo" ManuallyRouted="false" />
+        <AssociationConnector Association="Leng01Model.FKIssue84268" ManuallyRouted="false" />
+        <AssociationConnector Association="Leng01Model.Has1" ManuallyRouted="false" />
+        <AssociationConnector Association="Leng01Model.IsAssignedTo" ManuallyRouted="false" />
+        <AssociationConnector Association="Leng01Model.UsAsignedTo" ManuallyRouted="false" />
+        <AssociationConnector Association="Leng01Model.Introduce2" ManuallyRouted="false" />
+        <AssociationConnector Association="Leng01Model.IsSupervisedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="Leng01Model.Introduce1" ManuallyRouted="false" />
+        <AssociationConnector Association="Leng01Model.IsAsignedTo1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
